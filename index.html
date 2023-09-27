@@ -9,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" HREF="./styles.css">
-</head>
 <body>
     <div id="button">
         <p><strong>Button Practice</strong></p>
@@ -43,6 +42,21 @@
                 <strong>Click Me</strong>
             </button>
         </form>
+        <br>
+        <p id="problem">
+            <b>Now you try:</b><br><br>
+            <b>Multiply (x+1)(x+8)(x+2)</b><br><br>
+            <b>Enter your answer in the space provided.</b><br><br>
+            <input type="text" id="in1"><br><br>
+            <button type="submit" id="myBtn" onclick="myCalc()"><b>Submit</b></button><br>
+            <p id="demo"></p>
+
+            <button type="submit" id="myBtn2" onClick="myCalc2()">
+                <b>Solution</b>
+            </button><br>
+            <p id="demo"></p>
+        </p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
